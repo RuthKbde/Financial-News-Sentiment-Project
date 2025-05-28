@@ -1,0 +1,27 @@
+# Virtual environment folder
+fnspid_env/
+
+# Python specific files
+__pycache__/
+*.pyc
+.python_history
+.pytest_cache/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+# Data files (generally exclude large datasets or dynamically generated ones)
+# If your FNSPID dataset is a large, static file, you might want to add its
+# specific name here if you don't want to commit it.
+# For now, we'll exclude a generic 'data/' folder and common data file types.
+data/
+*.csv
+*.json
+*.xlsx
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files (e.g., VS Code)
+.vscode/
